@@ -6,3 +6,7 @@ body{
 .card-icon{
     background-color: #00b4d8;
 }
+
+.container{
+    margin: 30px;
+}
