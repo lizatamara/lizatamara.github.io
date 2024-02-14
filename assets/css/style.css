@@ -3,7 +3,7 @@ body{
     background-color: #000000;
 }
 
-.card-icon, .btn, footer{
+.card-icon, .card, .btn, footer{
     background-color: #00b4d8;
 }
 
@@ -15,6 +15,6 @@ footer p{
     margin: 0;
 }
 
-footer a{
+footer a, .card{
     color: #ffffff;
 }
