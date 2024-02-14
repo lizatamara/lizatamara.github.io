@@ -18,3 +18,15 @@ footer p{
 footer a, .card{
     color: #ffffff;
 }
+
+footer a{
+    margin-left: 0.5rem;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+.card{
+    margin-bottom: 1rem;
+}

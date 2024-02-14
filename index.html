@@ -15,6 +15,17 @@
 <body>
     <header>
 
+        <!-- cosas que faltan:
+        _tooltip
+        _carousel automatico
+        _documentar
+        _margen cards
+      
+        
+        
+        -->
+
+
         <!-- navbar -->
 
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -77,8 +88,8 @@
     <!-- quienes somos  -->
     
     <section class="quienes-somos p-5 text-light container d-none d-md-block" id="quienes-somos"> 
-      <h2 class="text-center border-bottom">¿QUIÉNES SOMOS?</h2>
-      <div class="row">
+      <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
+      <div class="row border-top pt-3">
 
         <div class="bg-black text-light col-sm-4">
           <div class="card-icon text-center"><i class="fa-solid fa-plane"></i></div>
@@ -101,40 +112,40 @@
 
     </section>
 
-    <!-- card section -->
+    <!-- sección destacados -->
 
     <section class="container text-light p-5" id="destacados">
-      <h2 class="text-center border-bottom">DESTACADOS</h2>
-    <div class="row">
+      <h2 class="text-center">DESTACADOS</h2>
+    <div class="row border-top pt-3">
 
-      <div class="card col-sm-3">
+      <div class="card col-12 col-sm-3">
         <img class="card-img-top" src="./assets/img/card1.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Parque Nacional Torres del Paine</h5>
+          <h5 class="card-title" data-bs-toggle="tooltip" data-bs-title="Oferta paquete por $290000">Parque Nacional Torres del Paine</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
 
-      <div class="card col-sm-3">
+      <div class="card col-12 col-sm-3">
         <img class="card-img-top" src="./assets/img/card2.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Laguna Lejia</h5>
+          <h5 class="card-title" data-bs-toggle="tooltip" data-bs-title="6 cuotas de $39000">Laguna Lejia</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>  
         </div>
       </div>
 
-      <div class="card col-sm-3">
+      <div class="card col-12 col-sm-3">
         <img class="card-img-top" src="./assets/img/card3.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Salar de Atacama</h5>
+          <h5 class="card-title" data-bs-toggle="tooltip" data-bs-title="Precio final $470000">Salar de Atacama</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
         </div>
       </div>
 
-      <div class="card col-sm-3">
+      <div class="card col-12 col-sm-3">
         <img class="card-img-top" src="./assets/img/card4.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Parque Nacional Alerce Andino</h5>
+          <h5 class="card-title" data-bs-toggle="tooltip" data-bs-title="Últimos cupos $310000">Parque Nacional Alerce Andino</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>  
         </div>
       </div>
@@ -145,8 +156,8 @@
     <!-- contacto-->
 
     <section class="contacto container text-light p-5" id="contacto">
-      <h2 class="text-center border-bottom">CONTACTO</h2>
-      <form class="p-5">
+      <h2 class="text-center">CONTACTO</h2>
+      <form class="border-top pt-3">
         <div class="mb-3">
           <label class="form-label">Nombre</label>
           <input type="name" class="form-control">
@@ -159,23 +170,23 @@
           <label class="form-label">Mensaje</label>
           <textarea class="form-control" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary" id="alert-form">Enviar</button>
       </form>
 
     </section>
     
     <!-- footer -->
 
-    <footer class="text-light p-5">
+    <footer class="text-light p-3 d-flex justify-content-around">
       <p>
         VIAJES CHILE
       </p>
       <div class="icon-container">
 
-        <a href=""><i class="fa-brands fa-square-github"></i></a>
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-        <a href=""><i class="fa-brands fa-twitter-square" ></i></a>
-        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+        <a href="https://www.github.com" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter-square" ></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
       </div>
       
     </footer>
